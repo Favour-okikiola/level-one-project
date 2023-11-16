@@ -1,0 +1,25 @@
+#header{
+    height: 45em;
+}
+
+#inner-div {
+    /* background-color: #198754; */
+    width: 30em;
+    height: 40em;
+}
+
+#inner-div1 {
+    /* background-color: #198754; */
+    width: 35em;
+    height: 40em;
+}
+
+#inner {
+    width: 35em;
+    height: 37em;
+}
+
+#inner-div2 {
+    width: 15em;
+    height: 35em;
+}

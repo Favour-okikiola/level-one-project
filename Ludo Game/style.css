@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(32,34,56);
+}
+
+.Ludo {
+    width: 750px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.Blue, .Red, .Yellow, .Green {
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* color */
+.Blue {
+    background-color: royalblue;
+}
+
+.Red {
+    background-color: red;
+}
+
+.Yellow {
+    background-color: yellow;
+}
+
+.Green {
+    background-color: green;
+}
+
+/* box inside */
+.box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .insidebox {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+/* color */
+
+.Bluebackground {
+    background-color: royalblue;
+}
+
+.Redbackground {
+    background-color: red;
+}
+
+.Yellowbackground {
+    background-color: yellow;
+}
+
+.Greenbackground {
+    background-color: green;
+}
+
+/* square box  */
+.square {
+   width: 48px; 
+   height: 48px;
+   border: 1px solid black;
+}
+
+/* squarecontainer */
+.squarecontainer{
+    display: flex;
+}
+
+/* row */
+.row {
+    width: 750px;
+    height: 148px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    display: flex;
+}

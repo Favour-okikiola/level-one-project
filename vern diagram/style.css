@@ -1,0 +1,168 @@
+/* * {
+    padding: 0%;
+    margin: 0%;
+}
+
+#border {
+    border: 2px solid gold;
+    height: 400px;
+    width: 500px;
+    transition: 3s;
+    transform: translateX(50%);
+    transform: rotate(360deg);
+}
+
+#red {
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    opacity: 0.9;
+    background-image: conic-gradient(purple, red);
+    mix-blend-mode: color-dodge;
+
+}
+
+#blue {
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    opacity: 0.9;
+    background-image: conic-gradient(blue , blue,blue,blue,purple);
+    mix-blend-mode: color-burn;
+}
+
+#green {
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    opacity: 0.9;
+    background-image: conic-gradient( purple,purple,green,green);
+} */
+
+
+body {
+    background-color: black;
+}
+
+#border {
+    border: 2px solid gold;
+    height: 400px;
+    width: 300px;
+    transition: 5s;
+    transform: translateX(50%);
+    mix-blend-mode: normal;
+    /* transform: rotate(360deg); */
+}
+
+#red {
+    background-color:tomato;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 199px;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    /* opacity: 0.9; */
+    /* filter: saturate(60%); */
+    /* filter: brightness(10%); */
+    /* filter: opacity(80%); */
+
+}
+ 
+#blue {
+    background-color: blue;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    
+    height: 205px;
+    mix-blend-mode: color-burn;
+    position: absolute;
+    bottom: 197px;
+    left: 100px;
+    filter: opacity(50%);
+    /* opacity: 0.9; */
+    /* filter: saturate(50%); */
+    /* background-image: linear-gradient( to right,white,blue,blue); */
+    /* filter: brightness(10%); */
+}
+
+#green {
+    background-color: lightgreen;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    mix-blend-mode: color-dodge;
+    opacity: 0.8;
+}
+
+#innerred {
+    background-color: rebeccapurple;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 106px;
+    height: 172px;
+    position: absolute;
+    bottom: 12px;
+    left: 101px;
+    
+    /* background-image: linear-gradient( to right,purple 30%,red,blue 0%); */
+    /* opacity: 0.8; */
+}
+
+#innergreen {
+    background-color: rgb(255, 255, 0);
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    mix-blend-mode: color-burn;
+    filter: brightness(60%);
+}
+
+#innerblue {
+    background-color: lightskyblue;
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    /* bottom: px;
+    left: px; */
+    mix-blend-mode: color-burn;
+    /* filter: brightness(100000%); */
+}
+
+/* #white {
+    background-color: rgb(250, 246, 246);
+    border: 1px solid none;
+    border-radius: 100%;
+    width: 106px;
+    height: 172px;
+    position: absolute;
+    bottom: px;
+    left: 0px;
+    mix-blend-mode: color-dodge;
+    opacity: 0.7;
+    
+} */
+
